@@ -20,7 +20,7 @@ while row_index < src.count do
      end 
     element_index += 1
   end 
-    outer_results.push[inner_results]
+    outer_results << inner_results
     row_index += 1 
   end 
   outer_results 
