@@ -20,7 +20,7 @@ while row_index < src.count do
      end 
     element_index += 1
   end 
-    outer_results << inner_results
+    outer_results.push(lowest_value)
     row_index += 1 
   end 
   outer_results 
